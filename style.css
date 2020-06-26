@@ -1,0 +1,237 @@
+.fon {
+	background-repeat: no-repeat;
+	 background-attachment:fixed;
+	 background-position: center center;
+	 background-size: cover;
+}
+a {
+	font-size: 1.3em;
+	text-decoration: none;
+}
+/*Блок с кнопками в конце*/
+.konez {
+	margin-left: 40%;
+	margin-top: 1%;
+	width: 20%;
+	height: 50px;
+	border: 2px solid black;
+	background-color: rgba(230, 234, 234, 0.5);
+	padding: 10px;
+	
+}
+/*Кнопка в шапки*/
+.knopka {
+	margin-left: 34%;
+	margin-top: 20px;
+	margin-bottom:20px;
+	width: 15%;
+	height: 100px;
+	font-size: 1.3em;
+	border-radius: 30px;
+}
+.knopka1 {
+	margin-left: 40px;
+	margin-top: 20px;
+	margin-bottom:20px;
+	width: 15%;
+	height: 100px;
+	font-size: 1.3em;
+	border-radius: 30px;
+}
+/*Шапка сайта*/
+.schapka {
+	background-color: rgba(230, 234, 234, 0.5);
+	width: 100%;
+	height: auto;
+}
+.prozrach {
+	background-color: rgba(230, 234, 234, 0.5);
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-top: 5%;
+	height: auto;
+	width: auto;
+	border: 2px solid black;
+	font-size: 2em;
+	color: #fff;
+	border-radius: 20px;
+	padding: 10px;
+}
+.prozrach1 {
+	background-color: rgba(230, 234, 234, 0.5);
+	margin-left: 25%;
+	margin-top: 20%;
+	margin-right: 25%;
+	height: auto;
+	width: auto;
+	border: 2px solid black;
+	font-size: 1.5em;
+	color: #fff;
+	border-radius: 20px;
+	padding-left: 8%;
+}
+.dom {
+    position: fixed; /* Фиксированное положение */
+    left: 10px; /* Расстояние от правого края окна браузера */
+    top: 20%; /* Расстояние сверху */
+    padding: 10px; /* Поля вокруг текста */ 
+    background: #ffe; /* Цвет фона */ 
+    border: 1px solid #333; /* Параметры рамки */ 
+   }
+.kart {
+    position: fixed; /* Фиксированное положение */
+    left: 10px; /* Расстояние от правого края окна браузера */
+    top: 30%; /* Расстояние сверху */
+    padding: 10px; /* Поля вокруг текста */ 
+    background: #ffe; /* Цвет фона */ 
+    border: 1px solid #333; /* Параметры рамки */ 
+   }
+.text {
+    height: 1000px;
+   }
+
+.conteiner {
+	border: 2px solid black;
+	width: 300px;
+	text-align: center;
+}
+.perechod {
+	border: 2px solid black;
+	text-align: center;
+	border-radius: 40px;
+	width: 15%;
+	height: 30%;
+	font-size: 1.5em;
+}
+h1{
+	font-size: 2.9em;
+}
+.sagolovki{
+	font-size: 2.0em;
+}
+/*Контейнер в каждом альбоме*/
+.conteiner1 {
+	border: 2px solid black;
+	width: 80%;
+	height: auto;
+	margin-left: 10%;
+	margin-right: 10%;
+	background-color: F2EFEF;
+}
+.rasmer {
+	margin-top: 1%; /*Отступ сверху*/
+	width: 44%; /*Ширина*/
+	height: 83%; /*Высота*/
+	border: 2px solid black;
+	margin-left: 5%; /*Отступ слева*/
+}
+.rasmer1 {
+	margin-top: 1%; /*Отступ сверху*/
+	width: 44%; /*Ширина*/
+	height: 83%; /*Высота*/
+	border: 2px solid black;
+	margin-right: 5%; /*Отступ справа*/
+	margin-left: 1%; /*Отступ слева*/
+}
+.rasmer2{
+	width: 70%;
+	height: 75%;
+	margin-left: 10%;
+	margin-top: 10px;
+	border: 2px solid black;
+}
+.rasmer3{
+	width: 89%;
+	height: 92%;
+	margin-left: 5%;
+	margin-top: 10px;
+	border: 2px solid black;
+}
+.ponorama{
+	width: 98%;
+	height: auto;
+	margin-left: 1%;
+	margin-right: 1%;
+	margin-top: 10px;
+	margin-bottom:10px;
+	border: 2px solid black;
+}
+.albom {
+width: 17%;
+height:	35%;
+border: 2px solid black;
+margin: 1%;
+}
+
+/*Кнопка*/
+.a_demo_one {
+	position: fixed;
+    background-color:#3bb3e0;
+    padding:10px;
+    position:relative;
+    font-family: sans-serif;
+    font-size:20px;
+    text-decoration:none;
+    color:#fff;
+    border: solid 1px #186f8f;
+    background-image: linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+    background-image: -o-linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+    background-image: -moz-linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+    background-image: -webkit-linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+    background-image: -ms-linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+    background-image: -webkit-gradient(
+            linear,
+            left bottom,
+            left top,
+            color-stop(0, rgb(44,160,202)),
+            color-stop(1, rgb(62,184,229))
+        );
+    -webkit-box-shadow: inset 0px 1px 0px #7fd2f1, 0px 1px 0px #fff;
+    -moz-box-shadow: inset 0px 1px 0px #7fd2f1, 0px 1px 0px #fff;
+    box-shadow: inset 0px 1px 0px #7fd2f1, 0px 1px 0px #fff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+}
+ 
+.a_demo_one::before {
+    background-color:#ccd0d5;
+    content:"";
+    display:block;
+    position:absolute;
+    width:100%;
+    height:100%;
+    padding:8px;
+    left:-8px;
+    top:-8px;
+    z-index:-1;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0px 1px 1px #909193, 0px 1px 0px #fff;
+    -moz-box-shadow: inset 0px 1px 1px #909193, 0px 1px 0px #fff;
+    -o-box-shadow: inset 0px 1px 1px #909193, 0px 1px 0px #fff;
+    box-shadow: inset 0px 1px 1px #909193, 0px 1px 0px #fff;
+}
+ 
+.a_demo_one:active {
+    padding-bottom:9px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:11px;
+    top:1px;
+    background-image: linear-gradient(bottom, rgb(62,184,229) 0%, rgb(44,160,202) 100%);
+    background-image: -o-linear-gradient(bottom, rgb(62,184,229) 0%, rgb(44,160,202) 100%);
+    background-image: -moz-linear-gradient(bottom, rgb(62,184,229) 0%, rgb(44,160,202) 100%);
+    background-image: -webkit-linear-gradient(bottom, rgb(62,184,229) 0%, rgb(44,160,202) 100%);
+    background-image: -ms-linear-gradient(bottom, rgb(62,184,229) 0%, rgb(44,160,202) 100%);
+    background-image: -webkit-gradient(
+            linear,
+            left bottom,
+            left top,
+            color-stop(0, rgb(620,184,229)),
+            color-stop(1, rgb(44,160,202))
+        );
+}
